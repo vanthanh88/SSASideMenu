@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSASideMenu_Example', :exclusive => true do
+  pod 'SSASideMenu', :path => '../'
+end
+
+target 'SSASideMenu_Tests', :exclusive => true do
+  pod 'SSASideMenu', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
