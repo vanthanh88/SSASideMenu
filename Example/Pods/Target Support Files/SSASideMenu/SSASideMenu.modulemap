@@ -1,0 +1,6 @@
+framework module SSASideMenu {
+  umbrella header "SSASideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "SSASideMenu",
+  "version": "0.1.0",
+  "summary": "A short description of SSASideMenu.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SSASideMenu",
+  "license": "MIT",
+  "authors": {
+    "Thanh Nguyen": "thanhnv.ip@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SSASideMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SSASideMenu/Classes/**/*",
+  "resource_bundles": {
+    "SSASideMenu": [
+      "SSASideMenu/Assets/*.png"
+    ]
+  }
+}

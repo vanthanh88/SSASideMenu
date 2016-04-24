@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+  - SSASideMenu (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SSASideMenu (from `../`)
+
+EXTERNAL SOURCES:
+  SSASideMenu:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+  SSASideMenu: 210eeeb6a99d09067d3f17e4624432a594eeea7b
+
+COCOAPODS: 0.39.0
